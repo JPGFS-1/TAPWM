@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="atividade14.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Formulário Principal</h2>
+    <hr></hr>
+
+    <form name="formPrincipal" onsubmit="return validar()">
+
+        <p><label>Nome</label></p>
+        <input type="text" name="nome">
+
+        <p><label>Email</label></p>
+        <input type="email" name="email">
+
+        <p><label>Comentário</label></p>
+        <textarea name="comentario" rows="5"></textarea>
+
+        <p><strong>Pesquisa:</strong></p>
+        <p>Primeira vez nesta página?</p>
+
+        <input type="radio" name="pesquisa" value="sim"> Sim
+        <input type="radio" name="pesquisa" value="nao"> Não
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</div>
+
+<script src="atividade14.js"></script>
+
+</body>
+</html>
